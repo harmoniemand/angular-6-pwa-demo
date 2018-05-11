@@ -1,6 +1,7 @@
 build_image:
   stage: deploy
   script:
+    - npm install
     - npm run build
     - docker-compose down
     - docker-compose build
