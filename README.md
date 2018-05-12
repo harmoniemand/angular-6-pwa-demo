@@ -9,5 +9,6 @@
     
     npm install
     npm i -g http-server
+    npm run build
     http-server dist/pwa/
 
